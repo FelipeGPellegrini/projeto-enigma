@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+body {
+    background-color: black
+
+}
+
+h1, h2{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+img{
+    width: 300px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+#iresposta5{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 0;
+    padding: 10px;
+}
+
+button {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 0;
+    padding: 10px;
+}

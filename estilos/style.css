@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+body {
+    background-color: black
+}
+
+main{
+    height: 100vh;
+}
+
+#title{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+@keyframes floatbutton {
+    0%{width: 150px;height: 50px;}
+    50%{width: 170px; height: 80px;}
+    100%{width: 150px; height: 50px;}
+}
+
+
+#start{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 50px;
+    border: 0;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    animation-name: floatbutton;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+}
+
+#start:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+p{
+    color: white;
+    text-align: center;
+}
+
+p > a {
+    color: white;
+    text-decoration: none;
+}
+
+
+

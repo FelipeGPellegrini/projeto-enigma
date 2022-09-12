@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+body {
+    background-color: black
+
+}
+
+
+h1{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+p{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+#brasil{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#iresposta1{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 0;
+    padding: 10px;
+}
+
+button {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 0;
+    padding: 10px;
+}
